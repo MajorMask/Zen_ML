@@ -14,17 +14,20 @@ class IngestData:
 
 @step
 def ingest_data(data_path:str) ->pd.DataFrame:
- """   # Ingesting the data from the data_path.
+    """   
+    # Ingesting the data from the data_path.
 
     Args:
         data_path: path to the data
     Return:
         pd.DataFrame: the ingested data
 
- """
+    """
     try:
         ingest_data=IngestData(data_path)
         df = ingest_data.get_data()
         return df
     except Exception as e:
-        
+        logging.error("Error while ingesting the data, error code: {e}")
+        raise e
+ 
