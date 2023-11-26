@@ -16,12 +16,10 @@ class DataStrategy(ABC):
         pass
 
 class DataPreProcessStrategy(DataStrategy):
-
-        """
-        Strategy for Preprocessing data
-        """
+    """
+    Strategy for Preprocessing data
+    """
     def handle_data(self, data: pd.DataFrame) -> pd.DataFrame:
-     
         """
         Preprocess data
         """
@@ -34,5 +32,42 @@ class DataPreProcessStrategy(DataStrategy):
                     "oder_estimated_delivery_date",
                     "order_purchase_timestamp",
                   ],
-                  axis = 1
-                  )
+                  axis = 1)
+            data["product_weight_g"].fillna(data["product_weight_g"].median(),inplace = True)
+            data["product_length_cm"].fillna(data["product_length_cm"].median(),inplace = True)
+            data["product_height_cm"].fillna(data["product_height_cm"].median(),inplace = True)
+            data["product_width_cm"].fillna(data["product_width_cm"].median(),inplace = True)
+            data["review_comment_message"].fillna("no_review",inplace = True)
+            data = data.select.dtypes(include=[np.number])    
+            cols_to_drop = ["customer_zip_code_prefix","order_item_id"]
+            data = data.drop(cols_to_drop,axis = 1)
+            return data
+        except Exception as e:
+            logging.error("Error in preprocessing of data: {}".format(e))
+
+class DataDivideStrategy(DataStrategy):
+
+    def handle_data(self, data:pd.DataFrame) -> Union[pd.DataFrame, pd.Series]:
+
+        try:
+            X = data.drop(["review_score"],axis = 1)
+            y = data["review_score"]
+            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2)
+            return X_train, X_test, y_train, y_test
+        except Exception as e:
+            logging.error("Error in dividing data: {}".format(e))
+            raise e
+
+class DataCleaning:
+    def __init__ (self, data:pd.DataFrame, strategy:DataStrategy):
+        self.data = data
+        self.strategy = strategy
+
+    def handle_data(self) -> Union[pd.DataFrame,pd.Series]:
+
+        try:
+            return self.strategy.handle_data(self.data)
+        except Exception as e:
+            logging.error("Error in handling data: {}".format(e))
+            raise e
+ 
