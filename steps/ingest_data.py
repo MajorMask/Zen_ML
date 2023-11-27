@@ -36,8 +36,11 @@ def ingest_df(data_path:str) ->pd.DataFrame:
     try:
         ingest_data=IngestData(data_path)
         df = ingest_data.get_data()
+        print(df.head(10))
         return df
     except Exception as e:
         logging.error("Error while ingesting the data, error code: {e}")
         raise e
  
+# if __name__=="__main__":
+#     df = ingest_df("D:\Machine Learning Projects\Zen_ML\data\olist_customers_dataset.csv")

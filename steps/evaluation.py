@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.base import RegressorMixin
 
 from src.evaluation import MSE, R2, RMSE
-
+from typing_extensions import Annotated, Tuple
 
 @step
 def evaluate_model(model: RegressorMixin,

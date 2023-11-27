@@ -24,23 +24,23 @@ class DataPreProcessStrategy(DataStrategy):
         Preprocess data
         """
         try:
-            data = data.drop(
-                  [
-                    "order_approved_at",
-                    "order_delivered_carrier_date",
-                    "order_delieverd_customer_date",
-                    "oder_estimated_delivery_date",
-                    "order_purchase_timestamp",
-                  ],
-                  axis = 1)
+            # data = data.drop(
+            #       [
+            #         "order_approved_at",
+            #         "order_delivered_carrier_date",
+            #         "order_delieverd_customer_date",
+            #         "oder_estimated_delivery_date",
+            #         "order_purchase_timestamp",
+            #       ],
+            #       axis = 1)
             data["product_weight_g"].fillna(data["product_weight_g"].median(),inplace = True)
             data["product_length_cm"].fillna(data["product_length_cm"].median(),inplace = True)
             data["product_height_cm"].fillna(data["product_height_cm"].median(),inplace = True)
             data["product_width_cm"].fillna(data["product_width_cm"].median(),inplace = True)
             data["review_comment_message"].fillna("no_review",inplace = True)
-            data = data.select.dtypes(include=[np.number])    
-            cols_to_drop = ["customer_zip_code_prefix","order_item_id"]
-            data = data.drop(cols_to_drop,axis = 1)
+            data = data.select_dtypes(include=[np.number])    
+            # cols_to_drop = ["customer_zip_code_prefix","order_item_id"]
+            # data = data.drop(cols_to_drop,axis = 1)
             return data
         except Exception as e:
             logging.error("Error in preprocessing of data: {}".format(e))
