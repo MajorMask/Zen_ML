@@ -36,7 +36,7 @@ def ingest_df(data_path:str) ->pd.DataFrame:
     try:
         ingest_data=IngestData(data_path)
         df = ingest_data.get_data()
-        print(df.head(10))
+        # print(df.head(10))
         return df
     except Exception as e:
         logging.error("Error while ingesting the data, error code: {e}")

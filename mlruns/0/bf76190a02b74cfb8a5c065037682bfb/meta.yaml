@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning%20Projects/Zen_ML/mlruns/0/bf76190a02b74cfb8a5c065037682bfb/artifacts
+end_time: 1701132947905
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bf76190a02b74cfb8a5c065037682bfb
+run_name: handsome-hound-231
+run_uuid: bf76190a02b74cfb8a5c065037682bfb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701132947464
+status: 3
+tags: []
+user_id: Manan

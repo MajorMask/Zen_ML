@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning%20Projects/Zen_ML/mlruns/0/0ba863c5d41d44169dd7c13fa538a30f/artifacts
+end_time: 1701133156530
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0ba863c5d41d44169dd7c13fa538a30f
+run_name: nosy-cub-954
+run_uuid: 0ba863c5d41d44169dd7c13fa538a30f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701133156204
+status: 3
+tags: []
+user_id: Manan

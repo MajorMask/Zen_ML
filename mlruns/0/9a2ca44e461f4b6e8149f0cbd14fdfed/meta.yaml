@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning%20Projects/Zen_ML/mlruns/0/9a2ca44e461f4b6e8149f0cbd14fdfed/artifacts
+end_time: 1701133560593
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9a2ca44e461f4b6e8149f0cbd14fdfed
+run_name: intelligent-toad-371
+run_uuid: 9a2ca44e461f4b6e8149f0cbd14fdfed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701133560109
+status: 3
+tags: []
+user_id: Manan

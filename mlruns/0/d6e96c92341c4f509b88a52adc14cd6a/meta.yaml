@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning%20Projects/Zen_ML/mlruns/0/d6e96c92341c4f509b88a52adc14cd6a/artifacts
+end_time: 1701130827796
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d6e96c92341c4f509b88a52adc14cd6a
+run_name: intrigued-cod-465
+run_uuid: d6e96c92341c4f509b88a52adc14cd6a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701130814902
+status: 3
+tags: []
+user_id: Manan

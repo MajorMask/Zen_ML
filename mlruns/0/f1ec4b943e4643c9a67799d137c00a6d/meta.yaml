@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning%20Projects/Zen_ML/mlruns/0/f1ec4b943e4643c9a67799d137c00a6d/artifacts
+end_time: 1701129876157
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1ec4b943e4643c9a67799d137c00a6d
+run_name: sassy-wren-715
+run_uuid: f1ec4b943e4643c9a67799d137c00a6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701129869084
+status: 3
+tags: []
+user_id: Manan

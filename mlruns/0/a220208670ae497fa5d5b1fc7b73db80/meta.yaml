@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning%20Projects/Zen_ML/mlruns/0/a220208670ae497fa5d5b1fc7b73db80/artifacts
+end_time: 1701132982246
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a220208670ae497fa5d5b1fc7b73db80
+run_name: rare-mare-106
+run_uuid: a220208670ae497fa5d5b1fc7b73db80
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701132977755
+status: 3
+tags: []
+user_id: Manan

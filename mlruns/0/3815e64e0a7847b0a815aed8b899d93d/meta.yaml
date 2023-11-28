@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning%20Projects/Zen_ML/mlruns/0/3815e64e0a7847b0a815aed8b899d93d/artifacts
+end_time: 1701130829204
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3815e64e0a7847b0a815aed8b899d93d
+run_name: likeable-mare-314
+run_uuid: 3815e64e0a7847b0a815aed8b899d93d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701130828011
+status: 3
+tags: []
+user_id: Manan

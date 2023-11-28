@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning%20Projects/Zen_ML/mlruns/0/5e6f049161bd41a9837fa88eaca0fdb7/artifacts
+end_time: 1701133121930
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5e6f049161bd41a9837fa88eaca0fdb7
+run_name: loud-snail-587
+run_uuid: 5e6f049161bd41a9837fa88eaca0fdb7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701133117527
+status: 3
+tags: []
+user_id: Manan

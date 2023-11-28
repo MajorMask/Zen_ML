@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning%20Projects/Zen_ML/mlruns/0/14466de07400455d85e0b7c9181ee07f/artifacts
+end_time: 1701129410235
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 14466de07400455d85e0b7c9181ee07f
+run_name: tasteful-whale-184
+run_uuid: 14466de07400455d85e0b7c9181ee07f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701129403989
+status: 3
+tags: []
+user_id: Manan

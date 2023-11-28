@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning%20Projects/Zen_ML/mlruns/0/3e0d662e750045b682089054f9fd3c99/artifacts
+end_time: 1701133122521
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3e0d662e750045b682089054f9fd3c99
+run_name: efficient-snipe-866
+run_uuid: 3e0d662e750045b682089054f9fd3c99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701133122017
+status: 3
+tags: []
+user_id: Manan

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning%20Projects/Zen_ML/mlruns/0/2e085dcd47f843e1a2c9e9caacda6c65/artifacts
+end_time: 1701129876863
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2e085dcd47f843e1a2c9e9caacda6c65
+run_name: indecisive-ram-42
+run_uuid: 2e085dcd47f843e1a2c9e9caacda6c65
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701129876252
+status: 3
+tags: []
+user_id: Manan

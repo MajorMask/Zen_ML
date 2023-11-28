@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning%20Projects/Zen_ML/mlruns/0/fcc5e11524644958a6f3c7ed0c684267/artifacts
+end_time: 1701128237589
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fcc5e11524644958a6f3c7ed0c684267
+run_name: rare-hare-193
+run_uuid: fcc5e11524644958a6f3c7ed0c684267
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701128237183
+status: 3
+tags: []
+user_id: Manan

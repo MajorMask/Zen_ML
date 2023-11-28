@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning%20Projects/Zen_ML/mlruns/0/cc49c5828cae4e689fb837fb9d7e1db0/artifacts
+end_time: 1701129249060
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cc49c5828cae4e689fb837fb9d7e1db0
+run_name: unruly-sponge-246
+run_uuid: cc49c5828cae4e689fb837fb9d7e1db0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701129241290
+status: 3
+tags: []
+user_id: Manan

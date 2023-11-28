@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning%20Projects/Zen_ML/mlruns/0/531cbfa182c14f1990957f920ecb5e83/artifacts
+end_time: 1701132947391
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 531cbfa182c14f1990957f920ecb5e83
+run_name: nervous-elk-871
+run_uuid: 531cbfa182c14f1990957f920ecb5e83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701132942733
+status: 3
+tags: []
+user_id: Manan
