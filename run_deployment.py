@@ -38,7 +38,7 @@ def run_deployment(config: str, min_accuracy: float):
     predict=config == PREDICT or config == DEPLOY_AND_PREDICT
     if deploy:
         continuous_deployment_pipeline(
-            data_path = "D:\Machine Learning Projects\Zen_ML\data\olist_customers_dataset.csv",
+            data_path = "D:\Machine Learning Projects\Zen_ML\olist_customers_dataset.csv",
             min_accuracy = min_accuracy,
             workers= 3,
             timeout=60,
