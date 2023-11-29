@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning%20Projects/Zen_ML/mlruns/0/7548696f47bf4270b90ff999156264a6/artifacts
+end_time: 1701178113239
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7548696f47bf4270b90ff999156264a6
+run_name: bald-fly-406
+run_uuid: 7548696f47bf4270b90ff999156264a6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701178112620
+status: 3
+tags: []
+user_id: Manan

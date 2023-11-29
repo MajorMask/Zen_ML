@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Machine%20Learning%20Projects/Zen_ML/mlruns/0/52d23c98f4e14b4bbf55c6151490f01f/artifacts
+end_time: 1701178112511
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 52d23c98f4e14b4bbf55c6151490f01f
+run_name: skillful-fish-731
+run_uuid: 52d23c98f4e14b4bbf55c6151490f01f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701178105189
+status: 3
+tags: []
+user_id: Manan
